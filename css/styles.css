@@ -11,104 +11,83 @@ body {
     background: whitesmoke;
     background-attachment: fixed;
 }
-#cabezera{
-    height: 155px;
-    background: #faf5f5;
+#nav-menu {
     position: fixed;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    top: 0;
-
+    width: 100%;
+    z-index: 1000;
 }
 
-/*#logo{*/
-/*    width: 65%;*/
-/*    height: 100px;*/
-/*    margin-bottom: 30px;*/
-/*    margin-left: 15%;*/
-/*    float: left;*/
-/*    margin-top: 15px;*/
-/*    z-index: 1;*/
-/*}*/
 #logo{
-    width: 268px;
-    height: 125px;
+    margin-right: 30px;
+
 }
 #coplements{
     margin-right: 200px;
-}
-#lenguage{
-    float: right;
-    margin-top: 10px;
-    width: 110px;
-    height: 30px;
-
 
 }
-#lenguage a{
-    font-family: Verdana, Arial;
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 75px;
-    margin-right: 5px;
-    color: black;
-    text-decoration: none;
-
-}
-#lenguage img{
-    width: 10px;
-    height: 10px;
-
-}
-
-#buscar{
-    display: block;
-    float: right;
-    margin-top: 70px ;
-    margin-right: -9%;
-}
-#buscar input{
-    padding: 5px;
-    border-radius: 2px;
-    border:1px solid #ccc;
-    width: 80%;
-}
-#buscar img{
-    width: 12px;
-    height: 12px;
-}
-/* Fin logo*/
-
-#menu{
-    font-family: Helvetica, Arial;
-    background: #333333;
-    width: 100%;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    z-index: 1;
-}
-
-#menu ul{
+#lista{
     line-height: 50px;
-    list-style: none;
-    margin-left: 33%;
+    margin-left: 15%;
+
 }
 
-#menu ul li{
+#lista li{
     height: 50px;
-    display: inline-block;
     transition: all 300ms;
 
 }
-
-#menu a{
-    display: block;
-    color:white;
+#lista a{
+    color:black;
     text-decoration: none;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 35px;
 }
+#lista a:hover{
+   color: rgba(152, 25, 20, 0.90);
+}
+
+
+/*#lenguage{*/
+/*    float: right;*/
+/*    margin-top: 10px;*/
+/*    width: 110px;*/
+/*    height: 30px;*/
+
+
+/*}*/
+/*#lenguage a{*/
+/*    font-family: Verdana, Arial;*/
+/*    font-size: 13px;*/
+/*    letter-spacing: 1px;*/
+/*    line-height: 75px;*/
+/*    margin-right: 5px;*/
+/*    color: black;*/
+/*    text-decoration: none;*/
+
+/*}*/
+/*#lenguage img{*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+
+/*}*/
+
+/*#buscar{*/
+/*    display: block;*/
+/*    float: right;*/
+/*    margin-top: 70px ;*/
+/*    margin-right: -9%;*/
+/*}*/
+/*#buscar input{*/
+/*    padding: 5px;*/
+/*    border-radius: 2px;*/
+/*    border:1px solid #ccc;*/
+/*    width: 80%;*/
+/*}*/
+/*#buscar img{*/
+/*    width: 12px;*/
+/*    height: 12px;*/
+/*}*/
+/* Fin logo*/
+
 /* Fin menu*/
 .carousel{
     width: 100%;
