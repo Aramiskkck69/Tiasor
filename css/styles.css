@@ -11,11 +11,11 @@ body {
     background: whitesmoke;
     background-attachment: fixed;
 }
-#nav-menu {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-}
+/*#nav-menu {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    z-index: 1000;*/
+/*}*/
 
 #logo{
     margin-right: 30px;
