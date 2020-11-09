@@ -1,26 +1,50 @@
+/*@font-face {*/
+/*    font-family: "OpenSans";*/
+/*    src: url("../font/OpenSans-LightItalic.ttf");*/
+/*}*/
+
+/*p {*/
+/*    font-family: "Mystery Quest", cursive;*/
+/*    font-size: 150%;*/
+/*}*/
 *{
     margin: 0px;
     padding: 0px;
 }
 
-.clearfix{
-    float: none;
-    clear: both;
-}
 body {
     background: whitesmoke;
     background-attachment: fixed;
 }
+#section0{
 
+    background: #faf5f5;
+}
+#logo img{
+   margin-left: 25px;
+}
+#section0 .col {
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #616161;
+    text-align: left;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+#section0 .a {
+    padding-top: 25px;
+    text-align: center;
+}
 #logo{
-    margin-right: 30px;
+    margin-left: 60px;
 
 }
-#coplements{
+
+.head{
     margin-right: 200px;
 
 }
-#lista{
+#lista {
     line-height: 50px;
     margin-left: 15%;
 
@@ -31,13 +55,21 @@ body {
     transition: all 300ms;
 
 }
-#lista a{
-    color:black;
+#lista li a{
+    font-family: Helvetica,Arial;
+    color: rgba(215, 214, 214, 0.98);
     text-decoration: none;
-    padding-right: 35px;
+    padding-right: 40px;
+    padding-left: 40px;
+
 }
+#lista li a h5{
+    font-size: 17px;
+}
+
 #lista a:hover{
-   color: rgba(152, 25, 20, 0.90);
+   color: #bf4426;
+    box-shadow: 0px 1px 0px 0px #eeee;
 }
 
 
@@ -47,7 +79,7 @@ body {
 #section4
 {
     /*min-width: 100%;*/
-    min-height: auto%;
+    min-height: auto;
     margin: 0px auto;
     /*background: rosybrown;*/
     /*box-shadow: 0px 0px 1px gray;*/
@@ -55,10 +87,22 @@ body {
     outline:none;
     padding-bottom: 10px;
 }
-#carouselExampleIndicators img{
-    margin-top: 10px;
+#carouselExampleIndicators {
+    margin-top: 5px;
     pading: 10px;
 
+
+}
+#carouselExampleIndicators img{
+    margin-top: 5px;
+    max-height: 80vh;
+    max-width: 100%;
+
+
+
+}
+p{
+    font-family:Helvetica, Arial ;
 }
 
 /*.carousel{*/
@@ -111,12 +155,11 @@ body {
 #footer {
     font-family: Helvetica, Arial;
     color:white;
-    background: rgba(152, 25, 20, 0.90);
+    background: rgba(150, 25, 20, 0.9);
     margin: 0px auto;
     width: 75%;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 50px;
     line-height: 47px;
     text-align: center;
     bottom: 0;

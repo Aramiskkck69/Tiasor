@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Tiasor Tecnología Integral Avanzada </title>
     <!-- Estilos CSS -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles/styles.css" />
     <!-- Mis Scripts -->
     <script type="text/javascript" src="js/main.js"></script>
     <!-- Bootstrap -->
@@ -15,27 +15,58 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <!-- Header -->
-<nav class="navbar navbar-light navbar-expand-lg pb-3 pt-2" style="background-color:rgb(230, 230, 230); " id="nav-menu">
+<div class="container-fluid" id="section0" >
+    <div class="row">
+        <div class="col-lg-4 ml-0 row justify-content-md-center"  id="logo">
+            <a href="index.html">
+                <img id="logo" src="image/tiasor1.png"  width="195"  height="90"  class="d-inline-block align-top" alt="Logo" >
+            </a>
+        </div>
+        <div class="col a" >
+                <img src="image/icons/icons8-dirección-24.png"><strong> Direccion: </strong>Saltillo Coahulia Mexico
+        </div>
+        <div class="col" >
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+             width="24" height="24"
+             viewBox="0 0 171 171"
+             style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,171.99654v-171.99654h171.99654v171.99654z" fill="none"></path><g fill="#961614"><path d="M35.90332,21.375c-8.05125,0 -14.74875,6.69973 -14.25,14.75098c1.88813,30.41662 14.99356,57.77139 35.22144,77.99927c20.22788,20.22787 47.58264,33.33332 77.99927,35.22144c8.05124,0.49875 14.75097,-6.19875 14.75097,-14.25v-12.32959c0,-7.2675 -5.41166,-13.32542 -12.60791,-14.18042l-17.95166,-2.07348c-4.34625,-0.49875 -8.62571,0.99972 -11.68946,4.06347l-13.17846,13.17847c-10.11038,-5.13 -19.28281,-11.81671 -27.20581,-19.74683c-7.93013,-7.923 -14.61683,-17.09543 -19.74683,-27.20581l13.17847,-13.17847c3.06375,-3.06375 4.56223,-7.3432 4.06348,-11.68945l-2.07349,-17.95166c-0.855,-7.19625 -6.91292,-12.60791 -14.18042,-12.60791zM92.625,21.375c-3.91875,0 -7.125,3.20625 -7.125,7.125v53.47925c0,3.12788 3.78193,4.69972 5.9978,2.49097l13.20629,-13.22022h37.7959c3.91875,0 7.125,-3.20625 7.125,-7.125v-35.625c0,-3.91875 -3.20625,-7.125 -7.125,-7.125z"></path></g></g></svg>
+            <strong> Llamanos: </strong> +52 311 1172108 <br/>
+            <img src="image/icons/icons8-correo-24.png">
+            <strong> E-Mail: </strong>  aramis_ramirez@gmial.com
+        </div>
+        <div class="col a" >
+
+            <img src="image/icons/icons8-reloj-24.png"><strong> Horario: </strong> Lunes a Viernes 8:00 - 20:00
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!---->
+<nav class="navbar navbar-light navbar-expand-lg  navbar-expand-md pb-1 pt-1" style="background-color:#333333;  " id="nav-menu">
     <div class="container">
-        <a class="navbar-brand " href="index.html">
-            <img id="logo" src="image/tiasor1.png"  width="268"  height="125"  class="d-inline-block align-top" alt="Logo">
-        </a>
+<!--        <a class="navbar-brand " href="index.html">-->
+<!--            <img id="logo" src="image/tiasor1.png"  width="201"  height="97"  class="d-inline-block align-top" alt="Logo">-->
+<!--        </a>-->
         <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto" id="lista">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Servicios </a>
+            <ul class="navbar-nav m-auto" id="lista">
+                <li class="nav-item active ">
+                    <a class="nav-link" href="#"><h5> Servicios</h5> </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Contacto</a>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#"> <h5> Contacto </h5>  </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#"> Blog </a>
+                <li class="nav-item ">
+                    <a class="nav-link " href="#"> <h5> Blog </h5>  </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Acerca de </a>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#"> <h5> Acerca de </h5> </a>
                 </li>
             </ul>
         </div>
@@ -55,6 +86,7 @@
                     <img class="d-block w-100" src="image/5.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
+                    <!-- <a href='https://www.freepik.es/fotos/negocios'>Foto de Negocios creado por senivpetro - www.freepik.es</a>                   -->
                     <img class="d-block w-100" src="image/6.jpg" alt="Third slide">
                 </div>
             </div>
@@ -71,6 +103,33 @@
 </section>
 <!--Fin de seccion 1/ -->
 <!-- inicio de seccion 2-->
+<section id="section3" class="container-xl">
+    <div class="post">
+        <h1>Industrias y Servicios</h1>
+        <p>
+            Somos una empresa mexicana dedicada a la integración de proyectos para la industria de procesos de ensamble y manufactura, ofreciendo servicios de diseño, fabricación y puesta a punto de maquinaria y equipo, cambios de ingeniería, actualizaciones y mejoras a los procesos productivos de tu empresa; con un equipo especializado en servicio técnico de automatización, instalación y mantenimiento.
+        </p>
+    </div>
+    <div class="post">
+        <h2> Servicios </h2>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+    </div>
+
+    <h2> Industrias de expertise </h2>
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Why do we use it?
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </p> <hr/>
+    </div>
+</section>
+
+<!--Fin de seccion 2/-->
+<!-- Inicio de Seccion 3-->
 <section id="section2" class="container-xl">
     <div class="post">
         <h1> Quienes somos </h1>
@@ -95,33 +154,6 @@
         </p> <hr/>
     </div>
 
-</section>
-
-<!--Fin de seccion 2/-->
-<!-- Inicio de Seccion 3-->
-<section id="section3" class="container-xl">
-    <div class="post">
-        <h1>Industrias y Servicios</h1>
-        <p>
-            Somos una empresa mexicana dedicada a la integración de proyectos para la industria de procesos de ensamble y manufactura, ofreciendo servicios de diseño, fabricación y puesta a punto de maquinaria y equipo, cambios de ingeniería, actualizaciones y mejoras a los procesos productivos de tu empresa; con un equipo especializado en servicio técnico de automatización, instalación y mantenimiento.
-        </p>
-    </div>
-    <div class="post">
-        <h2> Servicios </h2>
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            Why do we use it?
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-        </p>
-    </div>
-
-    <h2> Industrias de expertise </h2>
-    <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        Why do we use it?
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-    </p> <hr/>
-    </div>
 </section>
 <!--fin se seccion 3-->
 <!-- inicio de seccion 4 -->
