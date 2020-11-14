@@ -28,11 +28,19 @@ body {
     #section0 div .a{
         margin-top: -10px;
     }
-
+    #section3 .j p{
+        margin-bottom: -100px !important;
+    }
 }
 @media only screen and (min-width : 300px) and (max-width : 320px) {
     #section0 div .a{
         text-align: center;
+    }
+    #section3 .j p{
+        margin-bottom: -50px !important;
+    }
+    #section3 .x p{
+        margin-bottom: 80px ;
     }
 
 }
@@ -40,9 +48,37 @@ body {
     #logo img{
         margin-left: 5px;
     }
+    #section3 .j p{
+        margin-bottom: -50px !important;
+    }
+    #section3 #service_2,
+    #section3 #service_5{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #section3 #service_5 p{
+        margin-bottom: 110px !important;
+    }
+    #section3 #service_2 p{
+        margin-bottom: 70px !important;
+    }
+
 }
+@media only screen and  (max-width : 1024px) and (min-width : 769px){
+    #section3 button{
+        margin-left: 8% !important;
+    }
+    #section3 .x p{
+        margin-bottom: 81px;
+    }
+}
+@media only screen and  (max-width : 4000px) and (min-width : 1025px){
+    #section3 button{
+        margin-left: 22% !important;
+        bottom: 30px !important;
+    }
 
-
+}
 
 #section0 .col {
     font-family: Helvetica ;
@@ -94,7 +130,7 @@ body {
 }
 
 
-#section1,
+
 #section2,
 #section3,
 #section4
@@ -106,6 +142,10 @@ body {
     padding-bottom: 10px;
     max-width: 90%;
 }
+#section1{
+    max-width: 100%;
+}
+
 #carouselExampleIndicators {
     margin-top: 5px;
     pading: 10px;
@@ -120,11 +160,8 @@ body {
 
 
 /************ Servicios Section 3 ********/
-#section3 .container{
+#section3 {
     max-width: 90%;
-}
-#section3 #Fila1 {
-
 }
 #section3 #Fila1 h1{
     font-family: 'Montserrat', sans-serif;
@@ -136,65 +173,63 @@ body {
     font-weight: 400;
     color: #272727;
 }
-#section3 .row p{
-    font-size: 20px;
+#section3 .row .x p{
+    font-size: 80%;
     color: #2b2b2b;
-    line-height: 34px;
-    letter-spacing: -0.5px;;
+    letter-spacing: -0.5px;
+    margin-bottom: 70px;
+
 }
 
 #section3 .row {
     padding-top: 15px;
     font-family: 'robo-thin';
-    display: flex;
 
 }
-#section3 .row .col-md{
+#section3 .row .x{
 
-    justify-content: space-between;
     margin-bottom: 15px;
     margin-right: 3%;
     margin-left: 3%;
 }
 
-#section3 .col-md img{
+#section3  img{
     width: 100%;
-    height: 50%;
+    height: 190px;
     margin-top: 5px;
     margin-bottom: 5px;
     object-fit: cover;
 }
-#section3 div strong{
+#section3  .row strong{
     font-family: 'Montserrat', sans-serif;
-    position: relative;
     display: inline-block;
-    font-size: 30px;
-    line-height: 35px;
-    font-weight: 400;
-    color: #272727;
+    color: #e81313;
 
 }
-#section3 .col-md  p{
-    font-size: 25px;
-    color: #9e9e9e;
-    line-height: 30px;
-    letter-spacing: -0.5px;
+
+#section3 .separet{
+    position: relative;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 40px;
+    top: -10px;
 }
-#section3 .col-md button{
+
+#section3  .row button{
     background: #333333;
-    margin-left: 23%;
-    height: 7%;
-    width: 45%;
-    position:absolute;
-    bottom:15px;
-    font-size: 18px;
+    margin-left: 16%;
+    height: 30px;
+    width: 150px;
+    position:absolute; /*El div será ubicado con relación a la pantalla*/
     color: white;
-
+    font-size: 10px;
+    text-align: center;
     letter-spacing: -0.5px;
+    margin-top: 10px;
+    bottom: 0px;
 
 }
-
-
 p{
     font-family: 'robo-thin';
 }

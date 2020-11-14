@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var img_services = $('#section3 .col-md img');
     var boton = $('#section3 .col-md button');
-    var div_services = $('#section3 .row .col-md');
+    var div_services = $('#section3 .row .x');
 
    $(div_services).mouseover(function() {
        $(":button", this).css({
