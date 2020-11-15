@@ -2,7 +2,7 @@ $(document).ready(function(){
     var img_services = $('#section3 .col-md img');
     var boton = $('#section3 .col-md button');
     var div_services = $('#section3 .row .x');
-    var diferencia = $('#section2 .pp div');
+    var cartera = $('.card-content');
 
 //***********************************  Section 3 **************************
    $(div_services).mouseover(function() {
