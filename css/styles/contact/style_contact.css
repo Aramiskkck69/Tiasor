@@ -1,3 +1,12 @@
+:root{
+    --color_rojo: #961614;
+    --color_gris_oscuro: #333333;
+    --clor_blanco: #f6f5f5;
+    --color_rojo_vivo: #b91817;
+    --titulo:'Montserrat', sans-serif;
+    --parrafos: 'robo-thin';
+}
+
 #image{
     position: relative;
     display: flex;
@@ -17,19 +26,29 @@
 #image span{
     position: absolute;
     z-index: 2;
-    top: 50%;
-    height: auto;
+    height: 100%;
     width: 100%;
     text-align: center;
+
     background: rgba(0, 0, 0, 0.15);
 
 }
 #image h3{
-    font-size: 200%;
-    color: #f6f5f5;
+    font-size: 230%;
+    letter-spacing: 10px;
+    color: var(--clor_blanco);
+    text-shadow: 3px 5px 2px #474747;
+    margin-top: 8%;
+}
+.section-heading{
+    font-family:var(--titulo);
+    font-weight: bold !important;
+    font-size: 250% !important;
+    color: var(--color_rojo_vivo);
+
 }
 
-.card-body{
+.form-left {
     background: #f6f5f5;
 }
 
@@ -46,6 +65,30 @@
     width:100%;
     position:absolute;
 }
+.form-header{
+    background: var(--color_gris_oscuro);
+    padding: 1rem;
+    margin-top: -3.13rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    text-align: center;
+    border-radius: .125rem;
+}
+.blue h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #f6f5f5;
+
+}
+.card-body p,
+.map-contact p,
+.section-description{
+    font-family: var(--parrafos);
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+
 .md-form{
     display: flex;
 }
@@ -62,15 +105,13 @@
     margin-bottom: 10px;
     margin-top: 5px;
 }
-.md-form textarea{
-
-}
 
 .md-form label{
-    font-family: 'Montserrat', sans-serif;
     font-size: 73%;
     display: inline-block;
+    color: #333333;
     width: 20%;
+    margin-top: 12px;
     margin-bottom: 5px;
     margin-left: 5px;
 }
@@ -78,15 +119,34 @@
     height: 40px;
     height: 40px;
 }
-.fas svg,
-.fas img{
+.fass svg,
+.fass img{
+    filter: grayscale(60%);
+    height: 30px;
+    height: 30px;
+}
 
-    height: 30px;
-    height: 30px;
-}
 #form-submit{
-    background: #b91817;
+    background: var(--color_rojo);
+    color: var(--clor_blanco);
+    height: 50px;
+    width: 60%;
+    border-radius: 10px;
 }
+#form-submit:hover{
+    background: var(--color_rojo_vivo);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(51,51,51,0.6);
+    box-shadow: 0px 0px 15px 0px rgba(51,51,51,0.6);
+
+}
+
+
+.fa svg{
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+}
+
 
 /*form input[type="text"],*/
 /*form input[type="email"],*/
