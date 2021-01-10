@@ -1,0 +1,353 @@
+:root{
+    /* Colores */
+    --color_rojo: #961614;
+    --color_gris_oscuro: #333333;
+    --clor_blanco: #f6f5f5;
+    --color_rojo_vivo: #b91817;
+    /*  Fuentes */
+    --titulos:'Montserrat', sans-serif;
+    --parrafos: 'robo-thin';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-family: var(--titulos);
+    display: inline-block;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #272727;
+    border-bottom: 4px solid var(--color_rojo_vivo);
+}
+h2{
+    font-family: var(--titulos);
+    display: inline-block;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #b91817;
+    text-align: start;
+}
+ p{
+     font-family: var(--parrafos);
+    display: inline-block;
+    font-size: 80%;
+    text-align: justify-all;
+    color: #333333;
+}
+
+#image{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    z-index: 1;
+}
+#image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(80%);
+}
+
+#image span{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.15);
+
+}
+#image h3{
+    font-size: 230%;
+    letter-spacing: 10px;
+    color: var(--clor_blanco);
+    text-shadow: 3px 5px 2px #474747;
+    margin-top: 8%;
+}
+.section-heading{
+    font-family:var(--titulo);
+    font-weight: bold !important;
+    font-size: 250% !important;
+    color: var(--color_rojo_vivo);
+
+}
+
+/***************************************/
+.img_s5{
+    position: relative;
+}
+.img_s5 img{
+    width: 100%;
+    height: 100%;
+}
+.img_s5 span{
+    position: absolute;
+    /*bottom: 0;*/
+
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 120px;
+    background-color: var(--color_rojo_vivo);
+    color: #FFFFFF;
+}
+#proyect{
+    top: 120px;
+    /*margin-top: 100px;*/
+}#services {
+     top: 320px;
+     /*margin-top: 100px;*/
+ }
+     /**************/
+
+.carrousel_clients span{
+
+}
+
+/**********************************************/
+#section2 .kk,
+#section2 .ppp
+{
+    /*margin-top: 50px;*/
+    /*margin-bottom: 50px;*/
+    max-height: 62vh;
+}
+#section2 .kk{
+    display: flex;
+    margin-bottom: 5%;
+}
+#section2 .overlay_image{
+    position: relative;
+    height: 250px;
+
+}
+
+#section2 .overlay_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(80%);
+}
+
+#section2 .overlay{
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.35);
+
+}
+#section2  h1{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #272727;
+    border-bottom: 4px solid #b91817;
+}
+
+#section2 .overlay h2{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 100%;
+    line-height: 28px;
+    font-weight: bold;
+    color: #e8e8e7;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 8vw;
+    margin-right: 8vw;
+
+}
+#section2 .overlay p{
+    display: inline-block;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: #f6f5f5;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+}
+#section2 .ppp h2{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: bold;
+    color: #b91817;
+    text-align: start;
+}
+#section2  .ppp p{
+    display: inline-block;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: justify-all;
+    color: #333333;
+}
+#section2 .pp{
+    position: relative;
+    padding: 5px ;
+    margin-top: 3%;
+    max-width: 290px !important;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#section2 .pp img{
+    max-height: 35%;
+    /*margin-left: 50px;*/
+}
+#section2 .pp h3{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #333333;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 42%;
+    margin-left: 10%;
+
+}
+#section2 .pp p{
+    position: absolute;
+    bottom: 0;
+    left: 37%;
+    right: 5%;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #333333;
+
+}
+#section2 .pp:hover{
+    background: #f6f5f5;
+    box-shadow:3px 4px 10px -2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 4px 10px -2px rgba(0,0,0,0.5);
+}
+.slides_prop{
+    /*margin-top: 5%;*/
+}
+/**********************************************/
+
+/* Section 3 Mision */
+#section3,#section4{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    position:relative;
+}
+#text_mision, #img_mision,#text_vision, #img_vision{
+    width: 550px;
+    height: 500px;
+    margin:0px;
+    padding: 0px;
+}
+#section3 #text_mision{
+    background-color: var(--color_rojo);
+}
+#section3 #text_mision h1{
+    margin-top: 10px;
+    color: #FFFFFF;
+    display: block;
+    border-bottom: 5px solid var(--color_gris_oscuro) !important;
+}#section3 #text_mision h2,
+ #section3 #text_mision p
+ {
+    color: #FFFFFF;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+#section3 #img_mision img{
+    padding-left: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#section3 span {
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 38%;
+    width: 160px;
+    height: 170px;
+
+}#section3 span img{
+    width: 100%;
+    height: 100%;
+}
+
+/**********************************************************/
+
+/* Section 4 Vision */
+
+#section4 #text_vision{
+    background-color: var(--color_rojo);
+}
+#section4 #text_vision h1{
+    margin-top: 10px;
+    color: #FFFFFF;
+    display: block;
+    border-bottom: 5px solid var(--color_gris_oscuro) !important;
+}#section4 #text_vision h2,
+ #section4 #text_vision p
+ {
+     color: #FFFFFF;
+     margin-top: 6%;
+     margin-bottom: 5%;
+ }
+
+#section4 #img_vision img{
+    padding-right: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#section4 span {
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 38%;
+    width: 160px;
+    height: 170px;
+
+}#section4 span img{
+     width: 100%;
+     height: 100%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

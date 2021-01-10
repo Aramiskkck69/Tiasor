@@ -19,103 +19,6 @@ body {
 
     background: white;
 }
-@media only screen and (min-width : 321px) and (max-width : 425px) {
-    #logo img{
-        margin-left: -25px;
-    }
-    #section0 div .b,.a{
-        padding-right: 5%;
-        text-align: center;
-    }
-    #section0 div .a{
-        margin-top: -10px;
-    }
-    #section3 .j p{
-        margin-bottom: -100px !important;
-    }
-}
-@media only screen and (min-width : 300px) and (max-width : 374px) {
-    #section0 div .a{
-        text-align: center;
-    }
-
-    #section3 .j p{
-        margin-bottom: -50px !important;
-    }
-    #section3 .x p{
-        margin-bottom: 80px ;
-    }
-
-}
-@media only screen and (min-width : 420px) and (max-width : 991px) {
-    #logo img{
-        margin-left: 5px;
-    }
-    #section3 .j p{
-        margin-bottom: -50px !important;
-    }
-    #section3 #service_2,
-    #section3 #service_5{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #section3 #service_5 p{
-        margin-bottom: 110px !important;
-    }
-    #section3 #service_2 p{
-        margin-bottom: 70px !important;
-    }
-    #section3 button{
-        bottom: 8% !important;
-    }
-
-
-}
-@media only screen and  (max-width : 1024px) and (min-width : 769px){
-    #section3 button{
-        margin-left: 8% !important;
-    }
-    #section3 .x p{
-        margin-bottom: 81px;
-    }
-    #section2 .overlay{
-
-        top: 4% !important;
-        bottom: 4% !important;
-    }
-    #clients-logo-section img{
-        filter: grayscale(100%);
-    }
-    #clients-logo-section img:hover{
-        filter: grayscale(0%);
-    }
-
-
-}
-@media only screen and  (max-width : 4000px) and (min-width : 1025px){
-    #section3 button{
-        margin-left: 22% !important;
-        bottom: 30px !important;
-    }
-    #clients-logo-section img{
-        filter: grayscale(100%);
-    }
-    #clients-logo-section img:hover{
-        filter: grayscale(0%);
-    }
-
-}
-
-@media only screen and  (max-width : 1023px) and (min-width : 768px){
-    #section2 .overlay{
-
-        top: 12% !important;
-        bottom: 12% !important;
-        left: 15px;
-        right: 0;
-        width: 90%;
-    }
-}
 
 #section0 .col {
     font-family: Helvetica ;
@@ -274,21 +177,36 @@ p{
 #section2 .kk,
 #section2 .ppp
 {
+    /*margin-top: 50px;*/
+    /*margin-bottom: 50px;*/
     max-height: 62vh;
 }
 #section2 .kk{
     display: flex;
-    position: relative;
     margin-bottom: 5%;
 }
+#section2 .overlay_image{
+    position: relative;
+    height: 250px;
 
+}
 
-
-#section2 .kk img{
-    height: 40vh;
+#section2 .overlay_image img{
+    height: 100%;
     width: 100%;
     object-fit: cover;
     filter: grayscale(80%);
+}
+
+#section2 .overlay{
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.35);
+
 }
 #section2  h1{
     font-family: 'Montserrat', sans-serif;
@@ -299,68 +217,45 @@ p{
     color: #272727;
     border-bottom: 4px solid #b91817;
 }
-#section2 .overlay{
-    position: absolute;
-    top: 0px;
-    bottom: 0;
-    /*left: 0;*/
-    /*right: 0;*/
-
-
-
-
-}
-#section2 .overlay .row{
-    width: 100%;
-}
-#section2 .overlay .col-md-12{
-    margin-top: 10%;
-    background: rgba(0,0,0,0.35);
-    width: 100%;
-    color: white;
-    text-align: center;
-
-}
-
 
 #section2 .overlay h2{
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
-    font-size: 90%;
+    font-size: 100%;
     line-height: 28px;
     font-weight: bold;
     color: #e8e8e7;
-    /*margin-top: 10%*/
-    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 8vw;
+    margin-right: 8vw;
+
 }
 #section2 .overlay p{
     display: inline-block;
-    font-size: 90%;
+    font-size: 100%;
     font-weight: bold;
-    text-align: justify-all;
+    text-align: center;
     color: #f6f5f5;
-    /*margin-top: 5%*/
-
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
 }
 #section2 .ppp h2{
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
     font-size: 90%;
-    /*line-height: 15px;*/
     font-weight: bold;
     color: #b91817;
     text-align: start;
-    /*margin-top: 10%;*/
 }
 #section2  .ppp p{
     display: inline-block;
     font-size: 80%;
-    /*line-height: 13px;*/
     font-weight: bold;
     text-align: justify-all;
     color: #333333;
-    /*margin-top: 2%;*/
-
 }
 #section2 .pp{
     position: relative;
@@ -383,7 +278,8 @@ p{
     font-weight: bold;
     color: #333333;
     text-align: start;
-    margin-bottom: 40%;
+    margin-top: 10px;
+    margin-bottom: 42%;
     margin-left: 10%;
 
 }
@@ -396,6 +292,7 @@ p{
     line-height: 17px;
     font-weight: bold;
     color: #333333;
+
 }
 #section2 .pp:hover{
     background: #f6f5f5;

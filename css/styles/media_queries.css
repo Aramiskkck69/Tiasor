@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "robo-thin";
+    src: url("../font/Roboto-Thin.ttf");
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
+
+
+
+@media only screen and (min-width : 321px) and (max-width : 425px) {
+    #logo img{
+        margin-left: -25px;
+    }
+    #section0 div .b,.a{
+        padding-right: 5%;
+        text-align: center;
+    }
+    #section0 div .a{
+        margin-top: -10px;
+    }
+    #section3 .j p{
+        margin-bottom: -100px !important;
+    }
+}
+@media only screen and (min-width : 300px) and (max-width : 374px) {
+    #section0 div .a{
+        text-align: center;
+    }
+
+    #section3 .j p{
+        margin-bottom: -50px !important;
+    }
+    #section3 .x p{
+        margin-bottom: 80px ;
+    }
+
+}
+@media only screen and (min-width : 420px) and (max-width : 991px) {
+    #logo img{
+        margin-left: 5px;
+    }
+    #section3 .j p{
+        margin-bottom: -50px !important;
+    }
+    #section3 #service_2,
+    #section3 #service_5{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #section3 #service_5 p{
+        margin-bottom: 110px !important;
+    }
+    #section3 #service_2 p{
+        margin-bottom: 70px !important;
+    }
+    #section3 button{
+        bottom: 8% !important;
+    }
+
+
+}
+@media only screen and  (max-width : 1024px) and (min-width : 769px){
+    #section3 button{
+        margin-left: 8% !important;
+    }
+    #section3 .x p{
+        margin-bottom: 81px;
+    }
+    /*#section2 .overlay{*/
+
+    /*    top: 4% !important;*/
+    /*    bottom: 4% !important;*/
+    /*}*/
+    #clients-logo-section img{
+        filter: grayscale(100%);
+    }
+    #clients-logo-section img:hover{
+        filter: grayscale(0%);
+    }
+
+
+}
+@media only screen and  (max-width : 4000px) and (min-width : 1025px){
+    #section3 button{
+        margin-left: 22% !important;
+        bottom: 30px !important;
+    }
+    #clients-logo-section img{
+        filter: grayscale(100%);
+    }
+    #clients-logo-section img:hover{
+        filter: grayscale(0%);
+    }
+
+}
+
+@media only screen and  (max-width : 1023px) and (min-width : 768px){
+    /*#section2 .overlay{*/
+
+    /*    top: 12% !important;*/
+    /*    bottom: 12% !important;*/
+    /*    left: 15px;*/
+    /*    right: 0;*/
+    /*    width: 90%;*/
+    /*}*/
+}
